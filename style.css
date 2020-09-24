@@ -1,0 +1,129 @@
+.headerEdit{
+    text-align:center;
+    background-color: crimson;
+    padding: 30px
+}
+
+#letra{
+    color: white;
+}
+
+#page1{
+    text-align: left;
+
+}
+
+#page2{
+    text-align: left;
+
+}
+
+#page3{
+    text-align: left;
+ 
+}
+
+#image{
+    border-radius: 50px;
+}
+
+.presentacion{
+    padding: 20px;
+    border:10px solid #cccccc;
+        width:500px;
+        background-color:#0099cc;
+        height:1200px;
+    margin: 30px;
+    color:#fff;
+    text-align:center;
+    word-spacing:1px;
+}
+
+.estudios{ 
+    padding: 20px;
+    border:10px solid #cccccc;
+        width:600px;
+        background-color: rgb(0, 177, 177);
+        height:400px;
+    margin: 30px;
+    color:#fff;
+    text-align:center;
+    word-spacing:1px;
+}
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+#size{
+    font-size: x-large;
+}
+
+#size2{
+    font-size: large;
+}
+
+.habilidades{
+    padding: 20px;
+    border:10px solid #cccccc;
+        width:550px;
+        background-color: rgb(15, 0, 155);
+        height: 400px;
+    margin: 30px;
+    color:#fff;
+    text-align: center;
+    word-spacing:1px;
+}
+
+.certificados{
+    padding: 20px;
+    border:10px solid #cccccc;
+        width:550px;
+        background-color: rgb(34, 0, 185);
+        height:600px;
+    margin: 30px;
+    color:#fff;
+    text-align:center;
+    word-spacing:1px;
+}
+
+.section {
+    font-size: x-large;
+    background-color: thistle;
+    padding: 10px;
+    border: 10px;
+    margin: 18px;
+        margin-left: 30px;
+    border-radius: 10px;
+}
+#center{
+    float: center;
+}
+
+#calcu{
+    margin: 50px;
+}
+
+.footeredit{
+    height: 70px;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+}
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+
+}
+
+.text{
+    font-size: x-large;
+}
