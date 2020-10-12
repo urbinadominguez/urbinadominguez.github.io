@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello Bulma!</title>
+        <!-- en esta parte se agrega el link para poder acceder a los recursos de bulma-->
+		<link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+		<style>
+/*Aquí se están agregandoelementos de css para la apariencia*/
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.emoticon { white-space: pre; }
+
+		</style>
+	</head>
+	<body>
+<!--Aquí inicia el body y se empieza con la clase hero, que es como un banner-->
+		<!-- .hero -->
+		<section class="hero">
+			<div class="hero-body">
+				<div class="container">
+                    <!--Se agrega una imagen, el logo-->
+					<figure class="image center">
+						<img src="images/bulma-logo.png" style="max-width: 160px;">
+					</figure>
+				</div>
+			</div>
+        </section>
+<!--Se termina el banner-->
+		<!-- /.hero -->
+
+        <!-- .section -->
+        <!--Se empieza con las tarjetas y su color-->
+		<section class="section has-background-light">
+			<div class="container">
+				<div class="columns">
+					<div class="column">
+                    <!--todo lo anterior fué para acomodar-->
+						<div class="notification is-info">
+                            <!--Se agrega la tarjeta y sus datos-->
+							<h1 class="title is-size-4">Bulma?</h1>
+							<p class="is-size-5">
+								Bulma is a modern CSS framework from @jgthms, based on Flexbox.
+								Using Bulma, we can describe our website's design using just classes. <span class="emoticon">ᕕ( ᐛ )ᕗ</span>
+							</p>
+						</div>
+					</div>
+					<div class="column">
+                        <!--Se especifica el color-->
+						<div class="notification is-primary">
+                        <!--Se agrega la tarjeta y sus datos-->
+							<h1 class="title is-size-4">…Flexbox?</h1>
+							<p class="is-size-5">
+								Flexbox is a CSS spec that makes sectioning and aligning more natural.
+								We don't need to know Flexbox but it's how Bulma works behind-the-scenes. <span class="emoticon">⦤(^ー^)⦥</span>
+							</p>
+						</div>
+					</div>
+					<div class="column">
+                        <!--Se especifica el color-->
+						<div class="notification is-warning">
+                        <!--Se agrega la tarjeta y sus datos-->
+							<h1 class="title is-size-4">…Classes?</h1>
+							<p class="is-size-5">
+								Instead of writing our CSS per-element, we can use predefined classes.
+								With enough classes, we can describe our website design using semantics. <span class="emoticon">٩(^ᴗ^)۶</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <!-- /.section -->
+        <!--Se cerraron todas las etiquetas correctamente-->
+	</body>
+</html>
+<!--Termina la edición-->
